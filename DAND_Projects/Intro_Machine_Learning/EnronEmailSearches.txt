@@ -1,0 +1,449 @@
+
+	<NOTE: These are just for reference to show that the entire set of inboxes can be searched for keywords using grep commands.
+	Using egrep for some reason ended up in "hang up" responses, although I'm sure this is system dependant (run on Win10 w/ 8 GB RAM).
+	It took aproximately 1 minute to finish a search for a single keyword.
+	Note that the looks inside of each file (vi editor) only yielded hits for forwarded news articles and some unrelated false positive
+	matches, i.e. "Fat Boy Slim" (an entertainer) for "fat boy" and various products with "ricochet" in its title.
+	All emails referring to "Raptor" after the Enron scandal became major news in Sept 2000 were discarded. 
+	There just two emails referring to Raptor before the scandal broke, and I am showing them below at the end of the document.
+		These emails are buy-r/inbox/734. and kaminski-v/inbox/291.
+	It's certainly possible that the individuals in the email were involved in sneaky and/or possibly illegal stuff, but there
+		are certainly no red flags in the emails, and with only two emails to go on, it did not seem worth the effort to continue>
+
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'fat boy' */inbox/* 2>/dev/null
+campbell-l/inbox/1371.
+campbell-l/inbox/211.
+ruscitti-k/inbox/152.
+skilling-j/inbox/1070.
+skilling-j/inbox/1211.
+skilling-j/inbox/962.
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'fatboy' */inbox/* 2>/dev/null
+campbell-l/inbox/1371.
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il Ricochet */inbox/* 2>/dev/null
+dasovich-j/inbox/110.
+dasovich-j/inbox/1621.
+dasovich-j/inbox/1624.
+dasovich-j/inbox/1627.
+dasovich-j/inbox/1635.
+dasovich-j/inbox/1644.
+dasovich-j/inbox/1656.
+dasovich-j/inbox/1753.
+dasovich-j/inbox/1793.
+dasovich-j/inbox/193.
+dasovich-j/inbox/445.
+dasovich-j/inbox/767.
+dasovich-j/inbox/99.
+skilling-j/inbox/2466.
+steffes-j/inbox/258.
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'get shorty' */inbox/* 2>/dev/null
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'shorty' */inbox/* 2>/dev/null
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'death star' */inbox/* 2>/dev/null
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'megawatt laundering' */inbox/* 2>/dev/null
+dasovich-j/inbox/47.
+platter-p/inbox/290.
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'Chewco|Cuiaba' */inbox/* 2>/dev/null
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'Chewco' */inbox/* 2>/dev/null
+arnold-j/inbox/39.
+arnold-j/inbox/54.
+arnold-j/inbox/58.
+arora-h/inbox/60.
+brawner-s/inbox/74.
+buy-r/inbox/16.
+buy-r/inbox/431.
+campbell-l/inbox/1424.
+dasovich-j/inbox/1512.
+dasovich-j/inbox/1523.
+dasovich-j/inbox/1592.
+dasovich-j/inbox/1600.
+dasovich-j/inbox/1603.
+dasovich-j/inbox/794.
+dasovich-j/inbox/812.
+dasovich-j/inbox/817.
+davis-d/inbox/71.
+dean-c/inbox/48.
+dean-c/inbox/56.
+derrick-j/inbox/212.
+donohoe-t/inbox/478.
+ermis-f/inbox/582.
+geaccone-t/inbox/466.
+haedicke-m/inbox/526.
+hodge-j/inbox/653.
+holst-k/inbox/307.
+jones-t/inbox/569.
+jones-t/inbox/572.
+jones-t/inbox/725.
+jones-t/inbox/927.
+kean-s/inbox/42.
+kean-s/inbox/47.
+lay-k/inbox/1754.
+lay-k/inbox/1759.
+lay-k/inbox/224.
+lay-k/inbox/241.
+love-p/inbox/91.
+mann-k/inbox/271.
+martin-t/inbox/114.
+martin-t/inbox/12.
+martin-t/inbox/14.
+martin-t/inbox/22.
+martin-t/inbox/25.
+martin-t/inbox/274.
+martin-t/inbox/278.
+martin-t/inbox/292.
+martin-t/inbox/40.
+martin-t/inbox/42.
+martin-t/inbox/47.
+martin-t/inbox/53.
+martin-t/inbox/6.
+martin-t/inbox/88.
+martin-t/inbox/90.
+martin-t/inbox/94.
+martin-t/inbox/96.
+martin-t/inbox/98.
+may-l/inbox/1119.
+may-l/inbox/354.
+may-l/inbox/356.
+mckay-b/inbox/8.
+nemec-g/inbox/1685.
+parks-j/inbox/217.
+platter-p/inbox/321.
+platter-p/inbox/329.
+reitmeyer-j/inbox/402.
+saibi-e/inbox/1086.
+saibi-e/inbox/180.
+saibi-e/inbox/237.
+salisbury-h/inbox/220.
+salisbury-h/inbox/221.
+salisbury-h/inbox/313.
+salisbury-h/inbox/332.
+salisbury-h/inbox/333.
+salisbury-h/inbox/359.
+salisbury-h/inbox/361.
+shackleton-s/inbox/1074.
+shankman-j/inbox/14.
+shankman-j/inbox/9.
+slinger-r/inbox/32.
+solberg-g/inbox/143.
+swerzbin-m/inbox/144.
+swerzbin-m/inbox/180.
+swerzbin-m/inbox/184.
+swerzbin-m/inbox/200.
+townsend-j/inbox/273.
+whalley-g/inbox/13.
+whalley-g/inbox/18.
+whalley-g/inbox/24.
+whalley-g/inbox/292.
+whalley-g/inbox/469.
+whalley-g/inbox/9.
+williams-j/inbox/207.
+wolfe-j/inbox/265.
+ybarbo-p/inbox/575.
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'Cuiaba' */inbox/* 2>/dev/null
+benson-r/inbox/284.
+buy-r/inbox/340.
+buy-r/inbox/569.
+buy-r/inbox/570.
+buy-r/inbox/707.
+campbell-l/inbox/34.
+dean-c/inbox/56.
+geaccone-t/inbox/263.
+haedicke-m/inbox/10.
+haedicke-m/inbox/13.
+haedicke-m/inbox/131.
+haedicke-m/inbox/250.
+haedicke-m/inbox/477.
+haedicke-m/inbox/544.
+lay-k/inbox/1671.
+lay-k/inbox/795.
+martin-t/inbox/40.
+may-l/inbox/354.
+may-l/inbox/356.
+parks-j/inbox/217.
+platter-p/inbox/329.
+salisbury-h/inbox/220.
+salisbury-h/inbox/221.
+salisbury-h/inbox/332.
+salisbury-h/inbox/333.
+salisbury-h/inbox/359.
+salisbury-h/inbox/361.
+salisbury-h/inbox/677.
+salisbury-h/inbox/963.
+sanders-r/inbox/30.
+sanders-r/inbox/37.
+slinger-r/inbox/32.
+solberg-g/inbox/143.
+swerzbin-m/inbox/144.
+swerzbin-m/inbox/180.
+swerzbin-m/inbox/184.
+swerzbin-m/inbox/200.
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'arbitrage opportunities' */inbox/* 2>/dev/null
+causholli-m/inbox/192.
+causholli-m/inbox/340.
+haedicke-m/inbox/27.
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$
+
+erics@DESKTOP-UBB82AV MINGW64 ~/Desktop/udacity/ML/maildir
+$ grep -il 'ancillary services' */inbox/* 2>/dev/null
+baughman-d/inbox/301.
+benson-r/inbox/215.
+campbell-l/inbox/1369.
+campbell-l/inbox/524.
+campbell-l/inbox/533.
+campbell-l/inbox/559.
+campbell-l/inbox/560.
+campbell-l/inbox/567.
+campbell-l/inbox/589.
+campbell-l/inbox/60.
+carson-m/inbox/34.
+carson-m/inbox/72.
+crandell-s/inbox/166.
+crandell-s/inbox/34.
+crandell-s/inbox/8.
+dasovich-j/inbox/1587.
+dasovich-j/inbox/1625.
+dasovich-j/inbox/1747.
+dasovich-j/inbox/335.
+dasovich-j/inbox/35.
+dasovich-j/inbox/464.
+dasovich-j/inbox/645.
+dasovich-j/inbox/694.
+dasovich-j/inbox/760.
+dasovich-j/inbox/91.
+davis-d/inbox/110.
+dean-c/inbox/74.
+dean-c/inbox/916.
+forney-j/inbox/101.
+forney-j/inbox/109.
+forney-j/inbox/113.
+forney-j/inbox/128.
+forney-j/inbox/150.
+forney-j/inbox/154.
+forney-j/inbox/155.
+forney-j/inbox/156.
+forney-j/inbox/158.
+forney-j/inbox/162.
+forney-j/inbox/163.
+forney-j/inbox/2.
+forney-j/inbox/24.
+haedicke-m/inbox/104.
+haedicke-m/inbox/282.
+haedicke-m/inbox/576.
+haedicke-m/inbox/680.
+haedicke-m/inbox/77.
+hernandez-j/inbox/150.
+hernandez-j/inbox/178.
+hernandez-j/inbox/206.
+hernandez-j/inbox/218.
+hernandez-j/inbox/237.
+hernandez-j/inbox/296.
+hernandez-j/inbox/34.
+lay-k/inbox/1040.
+mann-k/inbox/291.
+mann-k/inbox/292.
+martin-t/inbox/106.
+nemec-g/inbox/734.
+nemec-g/inbox/863.
+platter-p/inbox/218.
+platter-p/inbox/236.
+platter-p/inbox/270.
+ring-r/inbox/75.
+ring-r/inbox/88.
+rogers-b/inbox/190.
+rogers-b/inbox/213.
+rogers-b/inbox/214.
+rogers-b/inbox/233.
+ruscitti-k/inbox/51.
+sager-e/inbox/239.
+sager-e/inbox/731.
+saibi-e/inbox/657.
+saibi-e/inbox/686.
+saibi-e/inbox/687.
+saibi-e/inbox/721.
+salisbury-h/inbox/323.
+salisbury-h/inbox/408.
+salisbury-h/inbox/817.
+shankman-j/inbox/86.
+solberg-g/inbox/167.
+steffes-j/inbox/269.
+steffes-j/inbox/271.
+steffes-j/inbox/273.
+steffes-j/inbox/276.
+steffes-j/inbox/324.
+steffes-j/inbox/33.
+steffes-j/inbox/332.
+steffes-j/inbox/343.
+steffes-j/inbox/361.
+steffes-j/inbox/389.
+steffes-j/inbox/450.
+steffes-j/inbox/468.
+steffes-j/inbox/474.
+steffes-j/inbox/50.
+stepenovitch-j/inbox/49.
+stepenovitch-j/inbox/57.
+stepenovitch-j/inbox/61.
+sturm-f/inbox/28.
+sturm-f/inbox/45.
+sturm-f/inbox/46.
+sturm-f/inbox/81.
+thomas-p/inbox/161.
+thomas-p/inbox/173.
+thomas-p/inbox/409.
+watson-k/inbox/25.
+whalley-g/inbox/138.
+whalley-g/inbox/139.
+williams-w3/inbox/41.
+williams-w3/inbox/46.
+williams-w3/inbox/68.
+
+
+
+ 
+buy-r/inbox/734.
+
+ 
+ -----Original Message-----
+From:   Delainey, David
+Sent:   Wednesday, August 22, 2001 11:12 PM
+To:     Muller, Mark
+Cc:     Whalley, Greg; Lavorato, John; Buy, Rick; Causey, Richard
+Subject:        NewPower
+
+Mark, The word on the street is that the NewPower folks are getting further in trouble (ie) strange trading activity, etc. Looks and smells a little like the old EES.
+
+Couple of opps:
+        - get another shareholder on-side and demand an Enron led audit to confirm financial and operating health;
+        - followed up by hostile exit of mgt team if significant issues arise.
+
+Issues:
+        - obviously pushes us into another level of complicity/fiduciary in a blow up or bankruptcy not unlike the issues we faced with Kafus et al; however, given our continued interest a significant control issue could result in a significant acceleration of a write-off of our existing position plus any outstanding credit.
+
+I would recommend we force the management team to submit to a detailed audit as a part of a united shareholder iniative - Lets discuss.
+
+Rick Buy, what is our current credit position?
+
+Greg/John, do you have a view on this one?
+
+Rick Causey, we  probably need a more "permanent solution" ot the NewPower issue.
+
+Regards
+Delainey
+
+
+
+
+
+kaminski-v/inbox/291.
+
+
+Message-ID: <32473345.1075858461459.JavaMail.evans@thyme>
+Date: Tue, 22 May 2001 16:20:25 -0700 (PDT)
+From: baker@enron.com
+To: j.kaminski@enron.com
+Subject: RE: Pricing of restriction on Enron stock
+Cc: rakesh.bharati@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: rakesh.bharati@enron.com
+X-From: Baker, Ron
+X-To: Kaminski, Vince J </o=ENRON/ou=NA/cn=Recipients/cn=Vkamins>
+X-cc: Bharati, Rakesh </o=ENRON/ou=NA/cn=Recipients/cn=Rbharati>
+X-bcc:
+X-Folder: \Vince_Kaminski_Jun2001_10\Inbox
+X-Origin: Kaminski-V
+X-FileName: vkamins.pst
+
+Vince,
+I just spoke with Rakesh.  I believe that there is some confusion regarding which part of that Raptor transaction we are talking about.  There are actually two different sets of forwards: one for up to 18MM shares contingently based on price as an offset to the Whitewing forward shortfall, and the other was for 12MM shares which was more of a straight restricted forward contract on ENE shares.  We all went over the valuations on both sets of forwards pretty thoroughly back in March, and I'm certain that the valuations that were put together included the contingent nature of the forwards on the 18MM shares.  In fact, I believe that we had a meeting with a couple of managers from Arthur Andersen to discuss the general methodology.  Of course, the valuations on the 12MM shares had no such component.  Let me know if you have more questions or concerns.  Thanks Vince.
+Ron
+
+ -----Original Message-----
+From:   Kaminski, Vince J
+Sent:   Tuesday, May 22, 2001 6:00 PM
+To:     Baker, Ron
+Cc:     Bharati, Rakesh; Kaminski, Vince J
+Subject:        Pricing of restriction on Enron stock
+
+Ron,
+
+Rakesh mentioned that there is an additional conditionality that will result
+in an adjustment of our valuation of the restrictions imposed on the forwards going
+into the Raptor vehicles.
+
+We were not aware of this conditionality at the time the project.
+We can, however, easily, incorporate it in our valuation model.
+This omission makes our valuation more conservative
+form the Enron's point of view.
+
+
+Please, let us know if this is required.
+
+Vince

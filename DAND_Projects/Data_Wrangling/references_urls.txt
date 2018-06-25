@@ -1,0 +1,26 @@
+Cuisine
+---
+https://taginfo.openstreetmap.org/keys/?key=cuisine#values
+http://wiki.openstreetmap.org/wiki/Key:cuisine
+http://wiki.openstreetmap.org/wiki/Key:drive_through
+http://wiki.openstreetmap.org/wiki/Key:diet
+
+
+Discussions on ways to tag apartments, units, house numbers, etc
+----------------
+
+http://wiki.openstreetmap.org/wiki/Talk:Key:addr
+(Discusses multiple issues related to house/apartment numbers and also how conventions differ by country)
+
+https://wiki.openstreetmap.org/wiki/Addresses#Buildings_with_multiple_house_numbers
+(Reference to show lack of consensus:  "Buildings with multiple house numbers   There is currently no consensus on this.")
+
+https://github.com/gravitystorm/openstreetmap-carto/issues/264
+(Similar proposal for what I propose, using unit tag)
+
+http://wiki.openstreetmap.org/wiki/Tag:building%3Dapartments#Addressing
+https://help.openstreetmap.org/questions/2329/addresses-with-two-house-numbers
+(References to show the different ways to tag apartments - and none include in street name!)
+
+http://wiki.openstreetmap.org/wiki/Key:addr:flats
+(An alternative proposal, using addr:flats tag for apartment numbers)
